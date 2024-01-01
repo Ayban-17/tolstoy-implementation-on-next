@@ -50,6 +50,15 @@ export default function Home() {
           class="tolstoy-carousel"
           data-product-id="PRODUCT_ID">
         </tolstoy-carousel>
+
+        {/* Non-shopify tolstoy ID inputted to a shopify code */}
+
+        <tolstoy-carousel
+          data-tags="{% for tag in product.tags -%}{{ tag }},{%- endfor %}"
+          class="tolstoy-carousel"
+          data-publish-id="0izuhb0tdg6pp" 
+          data-product-id="{{ product.id }}">
+        </tolstoy-carousel>
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
