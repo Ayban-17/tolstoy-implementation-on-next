@@ -4,12 +4,6 @@ import Script from 'next/script';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <tolstoy-carousel
-          id="0izuhb0tdg6pp"
-          class="tolstoy-carousel"
-          data-product-id="PRODUCT_ID">
-        </tolstoy-carousel>
-
       <Script
         src="https://widget.gotolstoy.com/widget/widget.js" 
         strategy="beforeInteractive"
@@ -41,7 +35,12 @@ export default function Home() {
         </div>
       </div>
 
-        
+        <tolstoy-carousel
+          id="0izuhb0tdg6pp"
+          class="tolstoy-carousel"
+          data-product-id="PRODUCT_ID">
+        </tolstoy-carousel>
+
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
