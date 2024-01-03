@@ -55,7 +55,7 @@ export default function Home() {
         </tolstoy-carousel> */}
 
         {/* Their code  */}
-        <tolstoy-carousel id="0izuhb0tdg6pp" className="tolstoy-carousel"></tolstoy-carousel>
+        <tolstoy-carousel id="0izuhb0tdg6pp" class="tolstoy-carousel"></tolstoy-carousel>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
