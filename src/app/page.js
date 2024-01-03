@@ -48,11 +48,11 @@ export default function Home() {
 
 
       {/* MY Code  */}
-        <tolstoy-carousel
+        {/* <tolstoy-carousel
           id="0izuhb0tdg6pp"
           class="tolstoy-carousel"
           data-product-id="PRODUCT_ID">
-        </tolstoy-carousel>
+        </tolstoy-carousel> */}
 
         {/* Their code  */}
         <tolstoy-carousel id="0izuhb0tdg6pp" className="tolstoy-carousel"></tolstoy-carousel>
